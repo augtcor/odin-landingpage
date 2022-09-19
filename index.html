@@ -4,6 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>The Travel Log</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap" rel="stylesheet">  
 </head>
 <body>
     <nav class="navbar">
@@ -19,18 +23,20 @@
    
     <header class="header">
         <div class="container">
-            <div>
+            <div class="left">
                 <h1>Welcome to The Travel Log</h1>
-                <p>This website shows a carefully curated selection of the best places in the world for you to visit alone, with friends or with your family.</p>
+                 <p>This website shows a carefully curated selection of the best places in the world for you to visit alone, with friends or with your family.</p>
                 <button class="button">Sign up</button>
-                <img src="/img/hero-img.jpg" alt="An ATV on a dune" class="hero-img" width="400px">
-            </div>
+            </div>    
+            <div class="right">
+                <img src="/img/hero-img.jpg" alt="An ATV on a dune" class="hero-img">
+            </div>    
         </div>
     </header>
    
     <section class="places">
-        <h2>Choose your next location</h2>
         <div class="container">
+            <h2>Choose your next location</h2>
             <div class="place">
                 <img src="/img/place1.jpg" alt="Balloons in the sky" width="200px">
                 <p>South America</p>
@@ -64,8 +70,10 @@
             <button>Sign up</button>
         </div>
     </section>
-    <footer>
-        <p>Copyright &copy; augcor 2022</p>
+    <footer class="footer">
+        <div class="container">
+            <p>Copyright &copy; augcor 2022</p>
+        </div>    
     </footer>
 </body>
 </html>
