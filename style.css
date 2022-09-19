@@ -71,7 +71,7 @@ body {
     margin: 10px 0px;
 }
 
-.left button {
+button {
     background-color: #3882f6;
     color: #e5e7eb;
     font-weight: bold;
@@ -93,7 +93,7 @@ body {
 
 .places .container {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 h2 {
@@ -132,4 +132,38 @@ h2 {
     font-weight: bold;
     font-size: 18px;
     text-align: end;
+}
+
+.call-to-action {
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.call-to-action .container {
+    display: flex;
+    background-color: #3882f6;
+    padding: 25px;
+    justify-content: space-around;
+    border-radius: 10px;
+}
+
+.cta-left h3 {
+    margin-bottom: 0px;
+    color: #f9faf8;
+}
+
+.cta-left p {
+    margin-top: 0px;
+    color: #f9faf8;
+}
+
+.cta-right {
+    display: flex;
+    align-items: center;
+}
+
+.cta-right button {
+    border-style: solid;
+    border-color: #f9faf8;
+    border-width: 2px;
 }
